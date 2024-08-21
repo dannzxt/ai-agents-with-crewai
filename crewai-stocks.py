@@ -58,7 +58,7 @@ stockPriceAnalyst = Agent(
 getStockPrice = Task(
     description="Analyze the stock {ticket} price history and create a trend analysis of up, down or sideways",
     expected_output="""Specify the current trend stock price - up, down or sideways.
-    eg. stock = 'APPL, price'
+    eg. stock = 'APPL, price up'
     """,
     agent=stockPriceAnalyst,
 )
